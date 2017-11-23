@@ -11,14 +11,13 @@
 @implementation WeekCell
 
 - (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+  [super awakeFromNib];
+  [self configureCell];
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+- (void)configureCell {
+  self.week.layer.cornerRadius = 5;
+  self.week.layer.masksToBounds = true;
 }
 
 @end

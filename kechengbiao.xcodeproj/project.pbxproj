@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4478FA7A773AC39E8635F0B8 /* libPods-kechengbiao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E555173E5229441E30ADA4 /* libPods-kechengbiao.a */; };
+		E537FE7E1FC6780000D71D05 /* weekDay.m in Sources */ = {isa = PBXBuildFile; fileRef = E537FE7D1FC6780000D71D05 /* weekDay.m */; };
+		E537FE841FC67D1000D71D05 /* CourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E537FE831FC67D1000D71D05 /* CourseCell.m */; };
+		E537FE871FC697E500D71D05 /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E537FE861FC697E500D71D05 /* CourseModel.m */; };
 		E58B510F1FB1611D0086FC4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B510E1FB1611D0086FC4B /* AppDelegate.m */; };
 		E58B51121FB1611D0086FC4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B51111FB1611D0086FC4B /* ViewController.m */; };
 		E58B51151FB1611D0086FC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58B51131FB1611D0086FC4B /* Main.storyboard */; };
@@ -16,6 +20,12 @@
 		E58B51201FB1611D0086FC4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B511F1FB1611D0086FC4B /* main.m */; };
 		E58B512A1FB1611D0086FC4B /* kechengbiaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B51291FB1611D0086FC4B /* kechengbiaoTests.m */; };
 		E58B51351FB1611D0086FC4B /* kechengbiaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B51341FB1611D0086FC4B /* kechengbiaoUITests.m */; };
+		E5E31E101FB2A84000C0C080 /* SelectWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E31E0F1FB2A84000C0C080 /* SelectWeekView.m */; };
+		E5E31E171FB2ACD200C0C080 /* WeekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E31E151FB2ACD200C0C080 /* WeekCell.m */; };
+		E5E31E181FB2ACD200C0C080 /* WeekCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E31E161FB2ACD200C0C080 /* WeekCell.xib */; };
+		E5E31E1B1FB2D8E000C0C080 /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E31E191FB2D8E000C0C080 /* UIColor+Utility.m */; };
+		E5E31E1F1FB2E48000C0C080 /* TagReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E31E1D1FB2E48000C0C080 /* TagReusableView.m */; };
+		E5E31E201FB2E48000C0C080 /* TagReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E31E1E1FB2E48000C0C080 /* TagReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2176CE0DC23CF153AEA40DA6 /* Pods-kechengbiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kechengbiao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kechengbiao/Pods-kechengbiao.debug.xcconfig"; sourceTree = "<group>"; };
+		51E555173E5229441E30ADA4 /* libPods-kechengbiao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kechengbiao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EBD1EC34A6897B1D23A385 /* Pods-kechengbiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kechengbiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-kechengbiao/Pods-kechengbiao.release.xcconfig"; sourceTree = "<group>"; };
+		E537FE7C1FC6780000D71D05 /* weekDay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weekDay.h; sourceTree = "<group>"; };
+		E537FE7D1FC6780000D71D05 /* weekDay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weekDay.m; sourceTree = "<group>"; };
+		E537FE821FC67D1000D71D05 /* CourseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseCell.h; sourceTree = "<group>"; };
+		E537FE831FC67D1000D71D05 /* CourseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseCell.m; sourceTree = "<group>"; };
+		E537FE851FC697E500D71D05 /* CourseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseModel.h; sourceTree = "<group>"; };
+		E537FE861FC697E500D71D05 /* CourseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseModel.m; sourceTree = "<group>"; };
 		E58B510A1FB1611D0086FC4B /* kechengbiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kechengbiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58B510D1FB1611D0086FC4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E58B510E1FB1611D0086FC4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +72,16 @@
 		E58B51301FB1611D0086FC4B /* kechengbiaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kechengbiaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58B51341FB1611D0086FC4B /* kechengbiaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kechengbiaoUITests.m; sourceTree = "<group>"; };
 		E58B51361FB1611D0086FC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E31E0E1FB2A84000C0C080 /* SelectWeekView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectWeekView.h; sourceTree = "<group>"; };
+		E5E31E0F1FB2A84000C0C080 /* SelectWeekView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectWeekView.m; sourceTree = "<group>"; };
+		E5E31E141FB2ACD200C0C080 /* WeekCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeekCell.h; sourceTree = "<group>"; };
+		E5E31E151FB2ACD200C0C080 /* WeekCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekCell.m; sourceTree = "<group>"; };
+		E5E31E161FB2ACD200C0C080 /* WeekCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekCell.xib; sourceTree = "<group>"; };
+		E5E31E191FB2D8E000C0C080 /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		E5E31E1A1FB2D8E000C0C080 /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		E5E31E1C1FB2E48000C0C080 /* TagReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagReusableView.h; sourceTree = "<group>"; };
+		E5E31E1D1FB2E48000C0C080 /* TagReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagReusableView.m; sourceTree = "<group>"; };
+		E5E31E1E1FB2E48000C0C080 /* TagReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4478FA7A773AC39E8635F0B8 /* libPods-kechengbiao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1639CDD4FF9D89F1FEB93299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51E555173E5229441E30ADA4 /* libPods-kechengbiao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62E1DE25DE03CD44996FB43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2176CE0DC23CF153AEA40DA6 /* Pods-kechengbiao.debug.xcconfig */,
+				A7EBD1EC34A6897B1D23A385 /* Pods-kechengbiao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E58B51011FB1611D0086FC4B = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +134,8 @@
 				E58B51281FB1611D0086FC4B /* kechengbiaoTests */,
 				E58B51331FB1611D0086FC4B /* kechengbiaoUITests */,
 				E58B510B1FB1611D0086FC4B /* Products */,
+				C62E1DE25DE03CD44996FB43 /* Pods */,
+				1639CDD4FF9D89F1FEB93299 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +152,9 @@
 		E58B510C1FB1611D0086FC4B /* kechengbiao */ = {
 			isa = PBXGroup;
 			children = (
+				E58B51421FB1645B0086FC4B /* ViewController */,
 				E58B510D1FB1611D0086FC4B /* AppDelegate.h */,
 				E58B510E1FB1611D0086FC4B /* AppDelegate.m */,
-				E58B51101FB1611D0086FC4B /* ViewController.h */,
-				E58B51111FB1611D0086FC4B /* ViewController.m */,
 				E58B51131FB1611D0086FC4B /* Main.storyboard */,
 				E58B51191FB1611D0086FC4B /* Assets.xcassets */,
 				E58B511B1FB1611D0086FC4B /* LaunchScreen.storyboard */,
@@ -135,6 +183,31 @@
 			path = kechengbiaoUITests;
 			sourceTree = "<group>";
 		};
+		E58B51421FB1645B0086FC4B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E58B51101FB1611D0086FC4B /* ViewController.h */,
+				E58B51111FB1611D0086FC4B /* ViewController.m */,
+				E5E31E0E1FB2A84000C0C080 /* SelectWeekView.h */,
+				E5E31E0F1FB2A84000C0C080 /* SelectWeekView.m */,
+				E5E31E141FB2ACD200C0C080 /* WeekCell.h */,
+				E5E31E151FB2ACD200C0C080 /* WeekCell.m */,
+				E5E31E161FB2ACD200C0C080 /* WeekCell.xib */,
+				E5E31E1C1FB2E48000C0C080 /* TagReusableView.h */,
+				E5E31E1D1FB2E48000C0C080 /* TagReusableView.m */,
+				E5E31E1E1FB2E48000C0C080 /* TagReusableView.xib */,
+				E5E31E1A1FB2D8E000C0C080 /* UIColor+Utility.h */,
+				E5E31E191FB2D8E000C0C080 /* UIColor+Utility.m */,
+				E537FE7C1FC6780000D71D05 /* weekDay.h */,
+				E537FE7D1FC6780000D71D05 /* weekDay.m */,
+				E537FE821FC67D1000D71D05 /* CourseCell.h */,
+				E537FE831FC67D1000D71D05 /* CourseCell.m */,
+				E537FE851FC697E500D71D05 /* CourseModel.h */,
+				E537FE861FC697E500D71D05 /* CourseModel.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E58B51391FB1611D0086FC4B /* Build configuration list for PBXNativeTarget "kechengbiao" */;
 			buildPhases = (
+				5081F77A29ED74E9B9BA3D34 /* [CP] Check Pods Manifest.lock */,
 				E58B51061FB1611D0086FC4B /* Sources */,
 				E58B51071FB1611D0086FC4B /* Frameworks */,
 				E58B51081FB1611D0086FC4B /* Resources */,
+				581A76AA4F4CA5C9BEDFD51F /* [CP] Embed Pods Frameworks */,
+				F2CCC834260E5E375E4D60D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +278,7 @@
 				TargetAttributes = {
 					E58B51091FB1611D0086FC4B = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					E58B51241FB1611D0086FC4B = {
@@ -241,7 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E31E201FB2E48000C0C080 /* TagReusableView.xib in Resources */,
 				E58B511D1FB1611D0086FC4B /* LaunchScreen.storyboard in Resources */,
+				E5E31E181FB2ACD200C0C080 /* WeekCell.xib in Resources */,
 				E58B511A1FB1611D0086FC4B /* Assets.xcassets in Resources */,
 				E58B51151FB1611D0086FC4B /* Main.storyboard in Resources */,
 			);
@@ -263,15 +342,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5081F77A29ED74E9B9BA3D34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kechengbiao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		581A76AA4F4CA5C9BEDFD51F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kechengbiao/Pods-kechengbiao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CCC834260E5E375E4D60D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kechengbiao/Pods-kechengbiao-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kechengbiao/Pods-kechengbiao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E58B51061FB1611D0086FC4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E58B51121FB1611D0086FC4B /* ViewController.m in Sources */,
+				E5E31E1B1FB2D8E000C0C080 /* UIColor+Utility.m in Sources */,
+				E537FE7E1FC6780000D71D05 /* weekDay.m in Sources */,
+				E5E31E171FB2ACD200C0C080 /* WeekCell.m in Sources */,
+				E5E31E101FB2A84000C0C080 /* SelectWeekView.m in Sources */,
 				E58B510F1FB1611D0086FC4B /* AppDelegate.m in Sources */,
+				E537FE841FC67D1000D71D05 /* CourseCell.m in Sources */,
 				E58B51201FB1611D0086FC4B /* main.m in Sources */,
+				E5E31E1F1FB2E48000C0C080 /* TagReusableView.m in Sources */,
 				E58B51181FB1611D0086FC4B /* kechengbiao.xcdatamodeld in Sources */,
+				E537FE871FC697E500D71D05 /* CourseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,28 +572,41 @@
 		};
 		E58B513A1FB1611D0086FC4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2176CE0DC23CF153AEA40DA6 /* Pods-kechengbiao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = FRW338XD92;
 				INFOPLIST_FILE = kechengbiao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MrFung.kechengbiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kechengbiao-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E58B513B1FB1611D0086FC4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EBD1EC34A6897B1D23A385 /* Pods-kechengbiao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = FRW338XD92;
 				INFOPLIST_FILE = kechengbiao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MrFung.kechengbiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kechengbiao-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

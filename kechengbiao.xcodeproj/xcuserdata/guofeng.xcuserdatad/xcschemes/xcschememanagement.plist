@@ -7,7 +7,25 @@
 		<key>kechengbiao.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E58B51091FB1611D0086FC4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E58B51241FB1611D0086FC4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E58B512F1FB1611D0086FC4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

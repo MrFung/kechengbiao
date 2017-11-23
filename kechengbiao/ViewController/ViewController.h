@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SelectWeekView.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong) SelectWeekView *selectWeekView;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) UICollectionView *collectionView;
+@property (nonatomic, assign) CGFloat addWidth;
+@property (nonatomic, copy) NSArray *colors;
+@property (nonatomic, strong) NSMutableArray *array;
+@property (nonatomic, assign) BOOL isShow;
 
 
 @end

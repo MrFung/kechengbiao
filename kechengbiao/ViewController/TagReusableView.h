@@ -10,4 +10,6 @@
 
 @interface TagReusableView : UICollectionReusableView
 
+@property (nonatomic, strong) UILabel *num;
+
 @end

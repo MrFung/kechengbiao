@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SelectWeekView : UIView
+@interface SelectWeekView : UIView <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, assign) CGFloat width;
+@property (nonatomic, assign) CGFloat height;
 
 @end

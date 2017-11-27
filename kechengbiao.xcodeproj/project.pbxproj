@@ -11,6 +11,8 @@
 		E537FE7E1FC6780000D71D05 /* weekDay.m in Sources */ = {isa = PBXBuildFile; fileRef = E537FE7D1FC6780000D71D05 /* weekDay.m */; };
 		E537FE841FC67D1000D71D05 /* CourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E537FE831FC67D1000D71D05 /* CourseCell.m */; };
 		E537FE871FC697E500D71D05 /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E537FE861FC697E500D71D05 /* CourseModel.m */; };
+		E574C1821FCBADEC00D0490D /* CourseCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E574C1811FCBADEC00D0490D /* CourseCollectionViewLayout.m */; };
+		E574C1851FCBC0CC00D0490D /* ViewController+Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = E574C1841FCBC0CC00D0490D /* ViewController+Configuration.m */; };
 		E58B510F1FB1611D0086FC4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B510E1FB1611D0086FC4B /* AppDelegate.m */; };
 		E58B51121FB1611D0086FC4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B51111FB1611D0086FC4B /* ViewController.m */; };
 		E58B51151FB1611D0086FC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58B51131FB1611D0086FC4B /* Main.storyboard */; };
@@ -55,6 +57,10 @@
 		E537FE831FC67D1000D71D05 /* CourseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseCell.m; sourceTree = "<group>"; };
 		E537FE851FC697E500D71D05 /* CourseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseModel.h; sourceTree = "<group>"; };
 		E537FE861FC697E500D71D05 /* CourseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseModel.m; sourceTree = "<group>"; };
+		E574C1801FCBADEC00D0490D /* CourseCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseCollectionViewLayout.h; sourceTree = "<group>"; };
+		E574C1811FCBADEC00D0490D /* CourseCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseCollectionViewLayout.m; sourceTree = "<group>"; };
+		E574C1831FCBC0CC00D0490D /* ViewController+Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Configuration.h"; sourceTree = "<group>"; };
+		E574C1841FCBC0CC00D0490D /* ViewController+Configuration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Configuration.m"; sourceTree = "<group>"; };
 		E58B510A1FB1611D0086FC4B /* kechengbiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kechengbiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58B510D1FB1611D0086FC4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E58B510E1FB1611D0086FC4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -188,6 +194,8 @@
 			children = (
 				E58B51101FB1611D0086FC4B /* ViewController.h */,
 				E58B51111FB1611D0086FC4B /* ViewController.m */,
+				E574C1831FCBC0CC00D0490D /* ViewController+Configuration.h */,
+				E574C1841FCBC0CC00D0490D /* ViewController+Configuration.m */,
 				E5E31E0E1FB2A84000C0C080 /* SelectWeekView.h */,
 				E5E31E0F1FB2A84000C0C080 /* SelectWeekView.m */,
 				E5E31E141FB2ACD200C0C080 /* WeekCell.h */,
@@ -204,6 +212,8 @@
 				E537FE831FC67D1000D71D05 /* CourseCell.m */,
 				E537FE851FC697E500D71D05 /* CourseModel.h */,
 				E537FE861FC697E500D71D05 /* CourseModel.m */,
+				E574C1801FCBADEC00D0490D /* CourseCollectionViewLayout.h */,
+				E574C1811FCBADEC00D0490D /* CourseCollectionViewLayout.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -402,8 +412,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58B51121FB1611D0086FC4B /* ViewController.m in Sources */,
+				E574C1821FCBADEC00D0490D /* CourseCollectionViewLayout.m in Sources */,
 				E5E31E1B1FB2D8E000C0C080 /* UIColor+Utility.m in Sources */,
 				E537FE7E1FC6780000D71D05 /* weekDay.m in Sources */,
+				E574C1851FCBC0CC00D0490D /* ViewController+Configuration.m in Sources */,
 				E5E31E171FB2ACD200C0C080 /* WeekCell.m in Sources */,
 				E5E31E101FB2A84000C0C080 /* SelectWeekView.m in Sources */,
 				E58B510F1FB1611D0086FC4B /* AppDelegate.m in Sources */,

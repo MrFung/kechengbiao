@@ -7,6 +7,7 @@
 //
 
 #import "CourseCell.h"
+#import "UIColor+Utility.h"
 
 @implementation CourseCell
 
@@ -19,6 +20,21 @@
     [self addSubview:_course];
   }
   return self;
+}
+
+- (void)setModel:(CourseModel *)model {
+  _model = model;
+  _course.text = model.courseName;
+  _course.textAlignment = NSTextAlignmentCenter;
+  _course.font = [UIFont systemFontOfSize:13];
+  _course.numberOfLines = 0;
+  _course.backgroundColor = [UIColor redColor];
+  
+  if (![model.colors isEqualToString:@"F5F5F5"]) {
+    _course.textColor = [UIColor whiteColor];
+    _course.alpha = 0.8;
+    _course.backgroundColor = [UIColor colorWithHexString:model.colors];
+  }
 }
 
 @end

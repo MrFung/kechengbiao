@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CourseModel.h"
 
 @interface CourseCell : UICollectionViewCell
 
 @property (nonatomic, strong) UILabel *course;
+@property (nonatomic, strong) CourseModel *model;
 
 @end

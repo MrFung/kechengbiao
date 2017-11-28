@@ -12,6 +12,7 @@
 #import "TagReusableView.h"
 #import "weekDay.h"
 #import "CourseModel.h"
+#import "UIScreen+Utility.h"
 
 @implementation ViewController (Configuration)
 
@@ -38,15 +39,17 @@
 
 - (void)configureCollectionView {
   CourseCollectionViewLayout *course = [[CourseCollectionViewLayout alloc] init];
-  self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"MrFung.JPG"]];
+  //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"MrFung.JPG"]];
+  self.view.backgroundColor = [UIColor whiteColor];
   
   course.width = self.addWidth;
   course.height = (CGRectGetHeight([UIScreen mainScreen].bounds) - 64 - 45) / 9.7;
   course.array = self.array;
   
-  self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 64 + 45, CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds)) collectionViewLayout:course];
-  self.collectionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"MrFung.JPG"]];
-  
+  self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 64 + 45 + [UIScreen topSafeAreaSpace], CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds)) collectionViewLayout:course];
+  //self.collectionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"MrFung.JPG"]];
+  self.collectionView.backgroundColor = [UIColor whiteColor];
+
   self.collectionView.dataSource = self;
   self.collectionView.delegate = self;
   
@@ -109,14 +112,14 @@
   NSInteger startDay = day - week + 1;
   NSInteger starkWeek = 0;
   
-  flag = [[weekDay alloc] initWithFrame:CGRectMake(0, 64, 37, height)];
+  flag = [[weekDay alloc] initWithFrame:CGRectMake(0, 64 + [UIScreen topSafeAreaSpace], 37, height)];
   flag.alpha = 0.8;
   [flag setDay:[NSString stringWithFormat:@"%ld月", (long)month] week:@" "];
   [self.view addSubview:flag];
   
   for (NSInteger i = 1; i <= 7; i ++) {
     x --;
-    flag = [[weekDay alloc] initWithFrame:CGRectMake(x, 64, self.addWidth, height)];
+    flag = [[weekDay alloc] initWithFrame:CGRectMake(x, 64 + [UIScreen topSafeAreaSpace], self.addWidth, height)];
     x += self.addWidth;
     flag.alpha = 0.9;
     

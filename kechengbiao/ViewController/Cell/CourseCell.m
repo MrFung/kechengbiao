@@ -28,7 +28,8 @@
   _course.textAlignment = NSTextAlignmentCenter;
   _course.font = [UIFont systemFontOfSize:13];
   _course.numberOfLines = 0;
-  _course.backgroundColor = [UIColor redColor];
+  _course.backgroundColor = [UIColor colorWithHexString:@"D8D8D8"];
+  self.backgroundColor = [UIColor whiteColor];
   
   if (![model.colors isEqualToString:@"F5F5F5"]) {
     _course.textColor = [UIColor whiteColor];

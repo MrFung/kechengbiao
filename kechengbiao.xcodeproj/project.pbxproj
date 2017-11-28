@@ -24,10 +24,11 @@
 		E58B51351FB1611D0086FC4B /* kechengbiaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B51341FB1611D0086FC4B /* kechengbiaoUITests.m */; };
 		E5E31E101FB2A84000C0C080 /* SelectWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E31E0F1FB2A84000C0C080 /* SelectWeekView.m */; };
 		E5E31E171FB2ACD200C0C080 /* WeekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E31E151FB2ACD200C0C080 /* WeekCell.m */; };
-		E5E31E181FB2ACD200C0C080 /* WeekCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E31E161FB2ACD200C0C080 /* WeekCell.xib */; };
 		E5E31E1B1FB2D8E000C0C080 /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E31E191FB2D8E000C0C080 /* UIColor+Utility.m */; };
 		E5E31E1F1FB2E48000C0C080 /* TagReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E31E1D1FB2E48000C0C080 /* TagReusableView.m */; };
-		E5E31E201FB2E48000C0C080 /* TagReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E31E1E1FB2E48000C0C080 /* TagReusableView.xib */; };
+		E5E6156C1FCD0B810067DE7F /* UIScreen+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E6156B1FCD0B810067DE7F /* UIScreen+Utility.m */; };
+		E5E6156F1FCD0C310067DE7F /* StatusBarAdjustView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E6156E1FCD0C310067DE7F /* StatusBarAdjustView.m */; };
+		E5E615721FCD0C5B0067DE7F /* BottomBarAdjustView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E615711FCD0C5B0067DE7F /* BottomBarAdjustView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,12 +83,16 @@
 		E5E31E0F1FB2A84000C0C080 /* SelectWeekView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectWeekView.m; sourceTree = "<group>"; };
 		E5E31E141FB2ACD200C0C080 /* WeekCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeekCell.h; sourceTree = "<group>"; };
 		E5E31E151FB2ACD200C0C080 /* WeekCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekCell.m; sourceTree = "<group>"; };
-		E5E31E161FB2ACD200C0C080 /* WeekCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekCell.xib; sourceTree = "<group>"; };
 		E5E31E191FB2D8E000C0C080 /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
 		E5E31E1A1FB2D8E000C0C080 /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
 		E5E31E1C1FB2E48000C0C080 /* TagReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagReusableView.h; sourceTree = "<group>"; };
 		E5E31E1D1FB2E48000C0C080 /* TagReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagReusableView.m; sourceTree = "<group>"; };
-		E5E31E1E1FB2E48000C0C080 /* TagReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagReusableView.xib; sourceTree = "<group>"; };
+		E5E6156A1FCD0B810067DE7F /* UIScreen+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Utility.h"; sourceTree = "<group>"; };
+		E5E6156B1FCD0B810067DE7F /* UIScreen+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Utility.m"; sourceTree = "<group>"; };
+		E5E6156D1FCD0C310067DE7F /* StatusBarAdjustView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusBarAdjustView.h; sourceTree = "<group>"; };
+		E5E6156E1FCD0C310067DE7F /* StatusBarAdjustView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarAdjustView.m; sourceTree = "<group>"; };
+		E5E615701FCD0C5B0067DE7F /* BottomBarAdjustView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BottomBarAdjustView.h; path = "../New Group/BottomBarAdjustView.h"; sourceTree = "<group>"; };
+		E5E615711FCD0C5B0067DE7F /* BottomBarAdjustView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomBarAdjustView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +163,6 @@
 		E58B510C1FB1611D0086FC4B /* kechengbiao */ = {
 			isa = PBXGroup;
 			children = (
-				E58B51421FB1645B0086FC4B /* ViewController */,
 				E58B510D1FB1611D0086FC4B /* AppDelegate.h */,
 				E58B510E1FB1611D0086FC4B /* AppDelegate.m */,
 				E58B51131FB1611D0086FC4B /* Main.storyboard */,
@@ -167,6 +171,8 @@
 				E58B511E1FB1611D0086FC4B /* Info.plist */,
 				E58B511F1FB1611D0086FC4B /* main.m */,
 				E58B51161FB1611D0086FC4B /* kechengbiao.xcdatamodeld */,
+				E58B51421FB1645B0086FC4B /* ViewController */,
+				E5E615731FCD0FF10067DE7F /* Tools */,
 			);
 			path = kechengbiao;
 			sourceTree = "<group>";
@@ -192,30 +198,65 @@
 		E58B51421FB1645B0086FC4B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E5E615771FCD12840067DE7F /* Model */,
+				E5E615741FCD10880067DE7F /* View */,
+				E5E615761FCD10F80067DE7F /* Cell */,
 				E58B51101FB1611D0086FC4B /* ViewController.h */,
 				E58B51111FB1611D0086FC4B /* ViewController.m */,
 				E574C1831FCBC0CC00D0490D /* ViewController+Configuration.h */,
 				E574C1841FCBC0CC00D0490D /* ViewController+Configuration.m */,
-				E5E31E0E1FB2A84000C0C080 /* SelectWeekView.h */,
-				E5E31E0F1FB2A84000C0C080 /* SelectWeekView.m */,
-				E5E31E141FB2ACD200C0C080 /* WeekCell.h */,
-				E5E31E151FB2ACD200C0C080 /* WeekCell.m */,
-				E5E31E161FB2ACD200C0C080 /* WeekCell.xib */,
-				E5E31E1C1FB2E48000C0C080 /* TagReusableView.h */,
-				E5E31E1D1FB2E48000C0C080 /* TagReusableView.m */,
-				E5E31E1E1FB2E48000C0C080 /* TagReusableView.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E5E615731FCD0FF10067DE7F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
 				E5E31E1A1FB2D8E000C0C080 /* UIColor+Utility.h */,
 				E5E31E191FB2D8E000C0C080 /* UIColor+Utility.m */,
+				E5E6156A1FCD0B810067DE7F /* UIScreen+Utility.h */,
+				E5E6156B1FCD0B810067DE7F /* UIScreen+Utility.m */,
+				E5E6156D1FCD0C310067DE7F /* StatusBarAdjustView.h */,
+				E5E6156E1FCD0C310067DE7F /* StatusBarAdjustView.m */,
+				E5E615701FCD0C5B0067DE7F /* BottomBarAdjustView.h */,
+				E5E615711FCD0C5B0067DE7F /* BottomBarAdjustView.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E5E615741FCD10880067DE7F /* View */ = {
+			isa = PBXGroup;
+			children = (
 				E537FE7C1FC6780000D71D05 /* weekDay.h */,
 				E537FE7D1FC6780000D71D05 /* weekDay.m */,
-				E537FE821FC67D1000D71D05 /* CourseCell.h */,
-				E537FE831FC67D1000D71D05 /* CourseCell.m */,
-				E537FE851FC697E500D71D05 /* CourseModel.h */,
-				E537FE861FC697E500D71D05 /* CourseModel.m */,
+				E5E31E0E1FB2A84000C0C080 /* SelectWeekView.h */,
+				E5E31E0F1FB2A84000C0C080 /* SelectWeekView.m */,
+				E5E31E1C1FB2E48000C0C080 /* TagReusableView.h */,
+				E5E31E1D1FB2E48000C0C080 /* TagReusableView.m */,
 				E574C1801FCBADEC00D0490D /* CourseCollectionViewLayout.h */,
 				E574C1811FCBADEC00D0490D /* CourseCollectionViewLayout.m */,
 			);
-			path = ViewController;
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5E615761FCD10F80067DE7F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E5E31E141FB2ACD200C0C080 /* WeekCell.h */,
+				E5E31E151FB2ACD200C0C080 /* WeekCell.m */,
+				E537FE821FC67D1000D71D05 /* CourseCell.h */,
+				E537FE831FC67D1000D71D05 /* CourseCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E5E615771FCD12840067DE7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E537FE851FC697E500D71D05 /* CourseModel.h */,
+				E537FE861FC697E500D71D05 /* CourseModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,9 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5E31E201FB2E48000C0C080 /* TagReusableView.xib in Resources */,
 				E58B511D1FB1611D0086FC4B /* LaunchScreen.storyboard in Resources */,
-				E5E31E181FB2ACD200C0C080 /* WeekCell.xib in Resources */,
 				E58B511A1FB1611D0086FC4B /* Assets.xcassets in Resources */,
 				E58B51151FB1611D0086FC4B /* Main.storyboard in Resources */,
 			);
@@ -411,6 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E615721FCD0C5B0067DE7F /* BottomBarAdjustView.m in Sources */,
 				E58B51121FB1611D0086FC4B /* ViewController.m in Sources */,
 				E574C1821FCBADEC00D0490D /* CourseCollectionViewLayout.m in Sources */,
 				E5E31E1B1FB2D8E000C0C080 /* UIColor+Utility.m in Sources */,
@@ -419,6 +459,8 @@
 				E5E31E171FB2ACD200C0C080 /* WeekCell.m in Sources */,
 				E5E31E101FB2A84000C0C080 /* SelectWeekView.m in Sources */,
 				E58B510F1FB1611D0086FC4B /* AppDelegate.m in Sources */,
+				E5E6156C1FCD0B810067DE7F /* UIScreen+Utility.m in Sources */,
+				E5E6156F1FCD0C310067DE7F /* StatusBarAdjustView.m in Sources */,
 				E537FE841FC67D1000D71D05 /* CourseCell.m in Sources */,
 				E58B51201FB1611D0086FC4B /* main.m in Sources */,
 				E5E31E1F1FB2E48000C0C080 /* TagReusableView.m in Sources */,

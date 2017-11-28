@@ -9,6 +9,7 @@
 #import "SelectWeekView.h"
 #import "WeekCell.h"
 #import "UIColor+Utility.h"
+#import "UIScreen+Utility.h"
 
 @implementation SelectWeekView
 
@@ -24,11 +25,11 @@
 #pragma mark
 
 - (void)setUp {
-  _tableView = [[UITableView alloc] initWithFrame:CGRectMake(6, 6, _width - 12, _height - 12 -40)];
+  _tableView = [[UITableView alloc] initWithFrame:CGRectMake(6, 6 + [UIScreen topSafeAreaSpace], _width - 12, _height - 12 -40)];
   _tableView.dataSource = self;
   _tableView.delegate = self;
   _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-  [_tableView registerNib:[UINib nibWithNibName:@"WeekCell" bundle:nil] forCellReuseIdentifier:@"WeekCellIdentifier"];
+  [_tableView registerClass:[WeekCell class] forCellReuseIdentifier:@"WeekCellIdentifier"];
   
   UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
   button.frame = CGRectMake(6, _height - 50, _width - 12, 40);

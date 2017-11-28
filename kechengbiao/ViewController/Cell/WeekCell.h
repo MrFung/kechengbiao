@@ -10,6 +10,6 @@
 
 @interface WeekCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UILabel *week;
+@property (nonatomic, strong) UILabel *week;
 
 @end

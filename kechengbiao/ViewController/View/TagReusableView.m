@@ -19,6 +19,7 @@
   if (self = [super initWithFrame:frame]) {
     _num = [[UILabel alloc] initWithFrame:self.bounds];
     _num.textAlignment = NSTextAlignmentCenter;
+    _num.backgroundColor = [UIColor colorWithHexString:@"D8D8D8"];
     [self addSubview:_num];
     self.layer.borderWidth = 0.24;
     self.layer.borderColor = [UIColor colorWithHexString:@"6F6E69"].CGColor;

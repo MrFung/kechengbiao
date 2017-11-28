@@ -18,11 +18,12 @@
 - (instancetype)initWithFrame:(CGRect)frame {
   if (self = [super initWithFrame:frame]) {
     _num = [[UILabel alloc] initWithFrame:self.bounds];
+    _num.textColor = [UIColor colorWithHexString:@"777777"];
     _num.textAlignment = NSTextAlignmentCenter;
-    _num.backgroundColor = [UIColor colorWithHexString:@"D8D8D8"];
+    _num.backgroundColor = [UIColor colorWithHexString:@"F2F2F2"];
     [self addSubview:_num];
     self.layer.borderWidth = 0.24;
-    self.layer.borderColor = [UIColor colorWithHexString:@"6F6E69"].CGColor;
+    self.layer.borderColor = [UIColor colorWithHexString:@"F2F2F2"].CGColor;
   }
   return self;
 }

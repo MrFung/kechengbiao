@@ -49,6 +49,7 @@
   self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 64 + 45 + [UIScreen topSafeAreaSpace], CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds)) collectionViewLayout:course];
   //self.collectionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"MrFung.JPG"]];
   self.collectionView.backgroundColor = [UIColor whiteColor];
+  self.collectionView.showsVerticalScrollIndicator = NO;
 
   self.collectionView.dataSource = self;
   self.collectionView.delegate = self;

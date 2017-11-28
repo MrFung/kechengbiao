@@ -14,7 +14,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
   if (self = [super initWithFrame:frame]) {
     [self setUp];
-    self.backgroundColor = [UIColor colorWithHexString:@"D8D8D8"];
+    self.backgroundColor = [UIColor colorWithHexString:@"F2F2F2"];
   }
   return self;
 }
@@ -23,13 +23,13 @@
   CGFloat width = CGRectGetWidth(self.frame);
   CGFloat height = CGRectGetHeight(self.frame);
   _day = [[UILabel alloc] initWithFrame:CGRectMake(0, 5, width, height / 3)];
-  _day.textColor = [UIColor whiteColor];
+  _day.textColor = [UIColor colorWithHexString:@"777777"];
   _day.textAlignment = NSTextAlignmentCenter;
   _week = [[UILabel alloc] initWithFrame:CGRectMake(0, height / 3 + 5, width, height / 3 * 2 - 5)];
   _week.textAlignment = NSTextAlignmentCenter;
-  _week.textColor = [UIColor whiteColor];
+  _week.textColor = [UIColor colorWithHexString:@"777777"];
   self.layer.borderWidth = 1;
-  self.layer.borderColor = [UIColor colorWithHexString:@"D8D8D8"].CGColor;
+  self.layer.borderColor = [UIColor colorWithHexString:@"F2F2F2"].CGColor;
   self.clipsToBounds = true;
   [self addSubview:_day];
   [self addSubview:_week];

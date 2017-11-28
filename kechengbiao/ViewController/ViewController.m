@@ -48,7 +48,6 @@
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
   TagReusableView *tag = [collectionView dequeueReusableSupplementaryViewOfKind:@"number" withReuseIdentifier:@"num" forIndexPath:indexPath];
   tag.num.text = [NSString stringWithFormat:@"%ld", indexPath.row + 1];
-  tag.num.textColor = [UIColor whiteColor];
   NSLog(@"viewForKind");
   
   return tag;

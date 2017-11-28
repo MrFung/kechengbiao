@@ -25,15 +25,15 @@
 - (void)setModel:(CourseModel *)model {
   _model = model;
   _course.text = model.courseName;
-  _course.textAlignment = NSTextAlignmentCenter;
-  _course.font = [UIFont systemFontOfSize:13];
+  _course.textAlignment = NSTextAlignmentLeft;
+  _course.font = [UIFont systemFontOfSize:11];
   _course.numberOfLines = 0;
-  _course.backgroundColor = [UIColor colorWithHexString:@"D8D8D8"];
+  _course.backgroundColor = [UIColor colorWithHexString:@"E4E4E4"];
   self.backgroundColor = [UIColor whiteColor];
   
   if (![model.colors isEqualToString:@"F5F5F5"]) {
     _course.textColor = [UIColor whiteColor];
-    _course.alpha = 0.8;
+    _course.alpha = 0.65;
     _course.backgroundColor = [UIColor colorWithHexString:model.colors];
   }
 }

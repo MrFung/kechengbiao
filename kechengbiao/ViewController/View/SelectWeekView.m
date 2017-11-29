@@ -25,7 +25,7 @@
 #pragma mark
 
 - (void)setUp {
-  _tableView = [[UITableView alloc] initWithFrame:CGRectMake(6, 6 + [UIScreen topSafeAreaSpace], _width - 12, _height - 12 -40)];
+  _tableView = [[UITableView alloc] initWithFrame:CGRectMake(6, [UIScreen topSafeAreaSpace], _width - 12, _height - 12 -40)];
   _tableView.dataSource = self;
   _tableView.delegate = self;
   _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;

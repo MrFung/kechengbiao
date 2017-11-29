@@ -40,7 +40,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
   CourseCell *courseCell = [self.collectionView dequeueReusableCellWithReuseIdentifier:@"course" forIndexPath:indexPath];
   courseCell.model = self.array[indexPath.row - 12];
-  NSLog(@"CellForRow");
+  NSLog(@"CellForRow: %ld", (long)indexPath.row);
   
   return courseCell;
 }
@@ -48,7 +48,7 @@
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
   TagReusableView *tag = [collectionView dequeueReusableSupplementaryViewOfKind:@"number" withReuseIdentifier:@"num" forIndexPath:indexPath];
   tag.num.text = [NSString stringWithFormat:@"%ld", indexPath.row + 1];
-  NSLog(@"viewForKind");
+  NSLog(@"viewForKind: %ld", (long)indexPath.row);
   
   return tag;
 }
